@@ -15,6 +15,8 @@ To change the sepia tone, set the `SORL_DEFAULT_SEPIA_TONE` settings which is an
 
 `SORL_DEFAULT_SEPIA_TONE = (255, 240, 192) # Default value`
 
+If you just want your images to be grayscale set the default tone to (0, 0, 0)
+
 ### Templatetag options
 
 Alternatively, if you want to enable sepia and tone per image, use the `sepia` and `sepia_tone` thumbnail templatetag options:
